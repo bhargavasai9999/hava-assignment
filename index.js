@@ -15,7 +15,7 @@ app.use('/api',AirportRouter)
 
 await CreateDBConnection()
 
-// await importData()
+// await importData() 
 app.listen(PORT,()=>{
 
     console.log(`Server is Running on PORT ${PORT}`)
